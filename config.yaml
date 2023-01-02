@@ -1,5 +1,5 @@
-baseURL: "/"
-relativeURLs: true
+baseURL: "https://lauradev.github.io/"
+# relativeURLs: true
 defaultContentLanguage: fr
 title: "Laura Traoré"
 theme: hugo-profile
