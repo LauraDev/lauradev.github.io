@@ -1,0 +1,243 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Laura Traoré",
+    "label": "Responsable d'équipe technique",
+    "image": "",
+    "email": "contact@lauradev.fr",
+    "phone": "06 12 34 56 78",
+    "url": "http://www.example.com",
+    "summary": "J'accompagne les CTOs dans la gestion et l'animation des équipes de développement, grâce à une expérience réussie de deux ans en tant que manager.",
+    "location": {
+      "address": "1 Avenue de la Paix",
+      "postalCode": "69260",
+      "city": "Charbonnières-les-bains",
+      "countryCode": "FR",
+      "region": "Rhône"
+    },
+    "profiles": [
+      {
+        "network": "GiHub",
+        "username": "LauraDev",
+        "icon": "fab fa-github",
+        "url": "https://github.com/LauraDev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "icon": "fab fa-linkedin",
+        "url": "https://www.linkedin.com/in/laura-dev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Loyalty Company",
+      "location": "Limonest",
+      "description": "Agence conseil en marketing client",
+      "position": "Responsable d'équipe technique",
+      "url": "https://www.loyaltycompany.com/",
+      "startDate": "2020-02-01",
+      "endDate": "2022-08-05",
+      "summary": "Gestion et animation de l’équipe de développement (environ 12 personnes)",
+      "highlights": [
+        "Management d’équipe : manager hiérarchiquement une équipe de production (points mensuels, entretiens annuels, de recadrage…) réaliser le suivi administratif (feuilles de temps, absence…) et de carrière (objectifs, points d’amélioration…)",
+        "Management d’effectifs (participer aux recrutements, suivi de la charge, instances de pilotage, …)",
+        "Management technique (code review, pair programming, identification des leviers pour accompagner la montée en compétences…)",
+        "Change management (être force de proposition sur les organisations, trait d’union avec les autres services…)"
+      ]
+    },
+    {
+      "name": "Kiss The Bride",
+      "location": "Limonest",
+      "description": "Agence conseil en marketing client",
+      "position": "Développeur Full Stack - React/Symfony",
+      "url": "https://www.kissthebride.fr/",
+      "startDate": "2019-04-01",
+      "endDate": "2020-01-31",
+      "summary": "Développement et maintenance d’applications web",
+      "highlights": [
+        "API Platform / Symfony, React, HTML, CSS, Docker, Gitlab, PHPStorm",
+        "Assurer la gestion des dossiers clients existants ",
+        "Participer à l’exécution de nouveaux projets",
+        "Produire du contenu digital de qualité",
+        "Intégrer les processus existants "
+      ]
+    },
+    {
+      "name": "SQLI",
+      "location": "Lyon",
+      "description": "Entreprise de Service Numérique",
+      "position": "Développeur Full Stack",
+      "url": "https://www.sqli.com/fr-fr",
+      "startDate": "2018-06-01",
+      "endDate": "2019-02-28",
+      "summary": "Intégration et développement «from scratch» d’applications.",
+      "highlights": [
+        "Développement «from scratch» d’applications",
+        "Utilisation de nombreux plugins (camera, flashlight, geolocation, uid, vibration…)",
+        "Mise en place des tests unitaires et fonctionnels",
+        "Intégration continue"
+      ]
+    },
+    {
+      "name": "HareDev",
+      "location": "Lyon",
+      "description": "Agence web",
+      "position": "Développeur Full Stack Js",
+      "url": "https://www.haredev.com/fr.html",
+      "startDate": "2016-12-01",
+      "endDate": "2018-06-30",
+      "summary": "Développement « from scratch » d’applications cross-platform.",
+      "highlights": [
+        "Développement « from scratch » d’une application de gestion administrative pour coachs sportifs.",
+        "Réalisation « from scratch » d’une application mettant en relation une entreprise de nettoyage et ses clients. Fonctionne sous le Web, iOS et android. "
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Webforce 3",
+      "url": "https://www.wf3.fr/",
+      "area": "Développement web",
+      "studyType": "Certification",
+      "title": "Développeur Intégrateur Web",
+      "startDate": "2017-05-01",
+      "endDate": "2017-09-08",
+      "score": "",
+      "courses": [
+        "Techniques d'intégration Web",
+        "Techniques de développement Web"
+      ]
+    },
+    {
+      "institution": "ESCAIA - École Supérieure de la Coopération Agricole et des Industries Alimentaires",
+      "url": "https://www.campuscentral.ca/fr/ecoles/ecole-superieure-de-la-cooperation-agricole-et-des-industries-alimentaires-escaia",
+      "area": "Cheferie de projet marketing",
+      "studyType": "Bac +4",
+      "title": "Chef de Projet Commercial",
+      "startDate": "2009-09-01",
+      "endDate": "2010-07-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "2014-11-01",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "2014-10-01",
+      "url": "https://example.com",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Manager une équipe",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Capacité à féderer",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Anglais courant",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Gestion de la charge",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Coordonner une équipe",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Animer une réunion",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Réaliser des entretiens annuels et de recadrage",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Définir des besoins en formation",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Participer aux recrutements",
+      "level": "Master",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Pratique professionnelle"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "https://example.com",
+      "roles": [],
+      "entity": "",
+      "type": ""
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

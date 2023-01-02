@@ -1,0 +1,99 @@
+{{ if .Site.Params.experience.enable | default false }}
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.experience.title | default "Experience" }}</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+                <div class="experience-container px-3 pt-2">
+                    <ul class="nav nav-pills mb-3 bg-transparent" id="pills-tab" role="tablist">
+                        {{ range $index, $element := .Site.Data.resume.work }}
+                        {{ if (eq $index 0) }}
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <div 
+                                class="nav-link active bg-transparent" 
+                                aria-selected="true" 
+                                role="tab" 
+                                data-bs-toggle="pill"
+                                id='{{ replaceRE `.|\s` "-" .name }}-tab'
+                                data-bs-target='#pills-{{ replaceRE `.|\s` "-" .name }}'
+                                aria-controls='{{ replaceRE `.|\s` "-" .name }}' 
+                            >
+                                {{ .name }}
+                            </div>
+                        </li>
+                        {{ else }}
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <div 
+                                class="nav-link bg-transparent" 
+                                aria-selected="true" 
+                                role="tab" 
+                                data-bs-toggle="pill"
+                                id='{{ replaceRE `.|\s` "-" .name }}-tab'
+                                data-bs-target='#pills-{{ replaceRE `.|\s` "-" .name }}' 
+                                aria-controls='{{ replaceRE `.|\s` "-" .name }}'
+                            >
+                                {{ .name }}
+                            </div>
+                        </li>
+                        {{ end }}
+                        {{ end }}
+                    </ul>
+                    <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
+                        {{ range $index, $element := .Site.Data.resume.work }}
+                        {{ if (eq $index 0) }}
+                        <div 
+                            class="tab-pane fade show active bg-transparent" 
+                            role="tabpanel"
+                            id='pills-{{ replaceRE `.|\s` "-" .name }}'
+                            aria-labelledby='pills-{{ replaceRE `.|\s` "-" .name }}-tab'
+                        >
+                            <div>
+                                <span class="h4">{{ .position }}</span>
+                                <small>-</small>
+                                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                                <div class="pb-1">
+                                    <small>{{ time.Format "Jan 2006" .startDate }} - {{ time.Format "Jan 2006" .endDate }}</small>
+                                </div>
+                            </div>
+                            <p>{{ .summary }}</p>
+                            <ul>
+                                {{ range $element.highlights }}
+                                        <li> {{ . }}</li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                        {{ else }}
+                        <div 
+                            class="tab-pane fade bg-transparent" 
+                            role="tabpanel"
+                            id='pills-{{ replaceRE `.|\s` "-" .name }}'
+                            aria-labelledby='pills-{{ replaceRE `.|\s` "-" .name }}-tab'
+                        >
+                            <div>
+                                <span class="h4">{{ .position }}</span>
+                                <small>-</small>
+                                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                                
+                                <div class="pb-1">
+                                    <small>{{ time.Format "Jan 2006" .startDate }} - {{ time.Format "Jan 2006" .endDate }}</small>
+                                </div>
+                            </div>
+
+                            <div class="pt-2">
+                                <p>{{ .summary }}</p>
+                                <ul>
+                                    {{ range $element.highlights }}
+                                        <li>{{ . }}</li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

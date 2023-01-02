@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.98.0" /><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href=./favicon.ico type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="./css/font.css" media="all">
+
+
+
+<meta property="og:title" content="Loïc Gallay" />
+<meta property="og:description" content="Développeur freelance Symfony" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/" /><meta property="og:site_name" content="Loïc Gallay" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Loïc Gallay"/>
+<meta name="twitter:description" content="Développeur freelance Symfony"/>
+
+
+<link rel="stylesheet" href="./bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="./css/header.css" media="all">
+<link rel="stylesheet" href="./css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="./css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+</style>
+
+<meta name="description" content=Développeur&#32;freelance&#32;Symfony>
+<link rel="stylesheet" href="./css/index.css" media="all">
+<link rel="stylesheet" href="./css/projects.css" media="all">
+
+
+<script defer src="./fontawesome-5/all-5.15.4.js"></script>
+
+  <title>
+Loïc Gallay
+
+  </title>
+</head>
+
+<body class="light" onload="loading()">
+  
+  
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+
+
+<header>
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="./#experience"
+                            aria-label="experience">Experiences professionnelles</a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="./#education"
+                            aria-label="education">Formation</a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="./#contact"
+                            aria-label="contact">Contact</a>
+                    </li>
+                    
+                </ul>
+
+                
+                
+                <div class="text-center">
+                    <button id="theme-toggle">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+                </div>
+            
+                
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="hero" class="py-5 align-middle">
+    <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 content animate" id="primary-font">
+                <span class="subtitle">
+                    Bonjour, mon nom est
+                </span>
+                <h2>
+                    Loïc Gallay
+                </h2>
+                <h3>
+                    Développeur freelance Symfony
+                </h3>
+                
+                Développeur web curieux, autonome et rigoureux, j&rsquo;aime les applications simples, rapides et efficaces. Un sens de l&rsquo;écoute et du service, une expertise technique en constante progression grâce à une formation continue. Motivé par l&rsquo;envie de toujours mieux faire et appuyé par des bases acquises au cours de mon parcours, je prends plaisir à relever de nouveaux challenges.
+                <div id="about">
+                    
+                    <p>Voici les technologies avec lesquelles je travaille:</p>
+                    <ul>
+                        
+                        <li>PHP</li>
+                        
+                        <li>Symfony</li>
+                        
+                        <li>MySQL</li>
+                        
+                        <li>Docker</li>
+                        
+                        <li>GitHub Action</li>
+                        
+                        <li>GitLab CI</li>
+                        
+                        <li>HTML</li>
+                        
+                        <li>CSS</li>
+                        
+                        <li>Javascript</li>
+                        
+                    </ul>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-auto h-100">
+                        
+                        <a href="./document/CV_Loic_Gallay.pdf" class="btn" download>
+                            CV
+                        </a>
+                        
+                    </div>
+                    <div class="col-auto px-0 h-100"><span id="loading-icons" style="display: none;">
+    
+    <span class="px-1">
+        <a href="https://gitlab.com/Luciol" target="_blank" class="btn social-icon">
+            <i class="fab fa-gitlab"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/lo%c3%afc-gallay-7a2844148" target="_blank" class="btn social-icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </span>
+    
+</span>
+</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-9 pt-5 image animate px-5 px-md-5 px-lg-0 text-center">
+                        <img src="./avatar.jpg" 
+                            class="img-thumbnail mx-auto" 
+                            alt=""
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Expériences professionnelles</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+                <div class="experience-container px-3 pt-2">
+                    <ul class="nav nav-pills mb-3 bg-transparent" id="pills-tab" role="tablist">
+                        
+                        
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <div 
+                                class="nav-link active bg-transparent" 
+                                aria-selected="true" 
+                                role="tab" 
+                                data-bs-toggle="pill"
+                                id='-------------------------tab'
+                                data-bs-target='#pills-------------------------'
+                                aria-controls='------------------------' 
+                            >
+                                LaBoutiqueOfficielle.com
+                            </div>
+                        </li>
+                        
+                        
+                        
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <div 
+                                class="nav-link bg-transparent" 
+                                aria-selected="true" 
+                                role="tab" 
+                                data-bs-toggle="pill"
+                                id='------tab'
+                                data-bs-target='#pills------' 
+                                aria-controls='-----'
+                            >
+                                Codéo
+                            </div>
+                        </li>
+                        
+                        
+                        
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <div 
+                                class="nav-link bg-transparent" 
+                                aria-selected="true" 
+                                role="tab" 
+                                data-bs-toggle="pill"
+                                id='---------tab'
+                                data-bs-target='#pills---------' 
+                                aria-controls='--------'
+                            >
+                                Amiltone
+                            </div>
+                        </li>
+                        
+                        
+                        
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <div 
+                                class="nav-link bg-transparent" 
+                                aria-selected="true" 
+                                role="tab" 
+                                data-bs-toggle="pill"
+                                id='-----------------tab'
+                                data-bs-target='#pills-----------------' 
+                                aria-controls='----------------'
+                            >
+                                Nitrique Concept
+                            </div>
+                        </li>
+                        
+                        
+                    </ul>
+                    <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
+                        
+                        
+                        <div 
+                            class="tab-pane fade show active bg-transparent" 
+                            role="tabpanel"
+                            id='pills-------------------------'
+                            aria-labelledby='pills--------------------------tab'
+                        >
+                            <div>
+                                <span class="h4">Développeur web PHP - Symfony</span>
+                                <small>-</small>
+                                <a href="https://www.laboutiqueofficielle.com/" target="_blank">LaBoutiqueOfficielle.com</a>
+                                <div class="pb-1">
+                                    <small>août 2019 - sept. 2022</small>
+                                </div>
+                            </div>
+                            <p></p>
+                            <ul>
+                                
+                                        <li> Symfony 4, PHP 7, MySQL, Jenkins, Jira</li>
+                                
+                                        <li> Maintenance et développement de nouvelles fonctionnalités</li>
+                                
+                                        <li> Intégration continue et livraisons</li>
+                                
+                            </ul>
+                        </div>
+                        
+                        
+                        
+                        <div 
+                            class="tab-pane fade bg-transparent" 
+                            role="tabpanel"
+                            id='pills------'
+                            aria-labelledby='pills-------tab'
+                        >
+                            <div>
+                                <span class="h4">Développeur web PHP - Symfony &amp; Laravel</span>
+                                <small>-</small>
+                                <a href="https://codeo.com/" target="_blank">Codéo</a>
+                                
+                                <div class="pb-1">
+                                    <small>nov. 2018 - juil. 2019</small>
+                                </div>
+                            </div>
+
+                            <div class="pt-2">
+                                <p>A travers ce poste je me suis pleinement épanouis dans le développement backend d&#39;application web sous Laravel et Symfony. Une partie de mon temps était destinée à la gestion de projet et à l&#39;encadrement d&#39;un autre développeur.</p>
+                                <ul>
+                                    
+                                        <li>Création d&#39;une application de gestion de stock - Laravel 5</li>
+                                    
+                                        <li>Développement d&#39;un module interagissant avec Prestashop- Symfony 3</li>
+                                    
+                                        <li>Création d&#39;un système de notification - PHP 7</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div 
+                            class="tab-pane fade bg-transparent" 
+                            role="tabpanel"
+                            id='pills---------'
+                            aria-labelledby='pills----------tab'
+                        >
+                            <div>
+                                <span class="h4">Développeur web et data</span>
+                                <small>-</small>
+                                <a href="https://www.amiltone.com/" target="_blank">Amiltone</a>
+                                
+                                <div class="pb-1">
+                                    <small>févr. 2018 - nov. 2018</small>
+                                </div>
+                            </div>
+
+                            <div class="pt-2">
+                                <p>Pour des clients grands comptes j&#39;ai participé à l&#39;élaboration de la gestion des flux de données. Cette opportunité interne s&#39;est offerte à moi suite au besoin d&#39;un développeur web au sein de l&#39;équipe Data. Cette expérience m&#39; apporte aujourd&#39;hui dans mon quotidien de développeur une meilleure approche de la gestion des données.</p>
+                                <ul>
+                                    
+                                        <li>Développement web - Angular 5, Node.js, MongoDB</li>
+                                    
+                                        <li>Création d&#39;une application cross-platformes - Ionic</li>
+                                    
+                                        <li>Gestion de flux de données - Talend, Apache karaf</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div 
+                            class="tab-pane fade bg-transparent" 
+                            role="tabpanel"
+                            id='pills-----------------'
+                            aria-labelledby='pills------------------tab'
+                        >
+                            <div>
+                                <span class="h4">Développeur web</span>
+                                <small>-</small>
+                                <a href="https://nitrique.fr/" target="_blank">Nitrique Concept</a>
+                                
+                                <div class="pb-1">
+                                    <small>oct. 2017 - janv. 2018</small>
+                                </div>
+                            </div>
+
+                            <div class="pt-2">
+                                <p>A la fin de ma formation je me suis vu proposé une mission de 4 mois qui m&#39;a permis de mettre en pratique et solidifier les connaissances acquises. Grâce à ce poste j&#39;ai eu une première approche de la gestion de projet (lien avec les clients, UI/UX, développement et TMA).</p>
+                                <ul>
+                                    
+                                        <li>Symfony 3, Bootstrap, jQuery, MySQL</li>
+                                    
+                                        <li>Développement d&#39;un CMS maison</li>
+                                    
+                                        <li>Création d&#39;un site vitrine</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="education" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Formation</h3>
+        <div class="row justify-content-center py-5">
+            
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>mai 2017 - sept. 2017</small>
+                                </div>
+                                <h5 class="card-title">Développeur Intégrateur Web</h5>
+                                
+                                <a href="https://www.wf3.fr/" target="_blank">
+                                    <h6>
+                                    Webforce 3
+                                    </h6>
+                                </a>
+                                <div class="py-1 education-content">
+                                    <ul>
+                                        
+                                            <li>Techniques d&#39;intégration Web</li>
+                                        
+                                            <li>Techniques de développement Web</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>sept. 2000 - juil. 2003</small>
+                                </div>
+                                <h5 class="card-title">Licence de Biologie des Organismes</h5>
+                                
+                                <a href="https://www.univ-lyon1.fr" target="_blank">
+                                    <h6>
+                                    Université Claude Bernard Lyon 1
+                                    </h6>
+                                </a>
+                                <div class="py-1 education-content">
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Contact</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-md-5">
+                <div class="col-md-8 py-3">
+                    <div class="text-center">
+                        Ma boîte mail est toujours ouverte. Pour dire bonjour ou pour une question, merci de me contacter.
+                    </div>
+                    
+                    <div class="text-center pt-3">
+                        <a href="mailto:lgallay@orange.fr" class="btn">
+                            Me contacter
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  </div><footer>
+    
+    
+
+    
+    
+
+    <div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            &copy; 2023 
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and Hugo
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+<script>
+    let loadingIcons;
+
+    function loading() {
+        myVar = setTimeout(showPage, 100);
+    }
+
+    function showPage() {
+        try{
+            document.getElementById("loading-icons").style.display = "block";
+        } catch(err) {}
+    }
+</script></body>
+
+</html>

@@ -1,0 +1,79 @@
+baseURL: "/"
+relativeURLs: true
+defaultContentLanguage: fr
+title: "Laura Traoré"
+theme: hugo-profile
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Laura Traoré"
+  description: Développeur freelance Symfony
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/favicon.ico"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Bonjour, mon nom est"
+    image: /avatar.png
+    button:
+      enable: true
+      name: "CV"
+      url: "/document/CV_Loic_Gallay.pdf"
+      download: true
+
+  # About
+  about:
+    enable: false
+    title: "A Propos"
+    image: "/images/me.png"
+    skills:
+      enable: true
+      title: "Voici les technologies avec lesquelles je travaille:"
+
+  # Experience
+  experience:
+    enable: true
+    title: "Expériences professionnelles"
+
+  # Education
+  education:
+    enable: true
+    title: "Formation"
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+
+  # projects
+  projects:
+    enable: false
+    # title: "Custom Name"
+    
+
+  #Contact
+  contact:
+    enable: true
+    title: "Contact"
+    content: Ma boîte mail est toujours ouverte. Pour dire bonjour ou pour une question, merci de me contacter.
+    email: contact@lauradev.fr
+    btnName: Me contacter
+
+  footer:
+    recentPosts: false
